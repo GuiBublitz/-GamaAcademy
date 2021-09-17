@@ -12,12 +12,28 @@
 ### #Sprints de 4 horas
 ---
 ### #Product Backlog: (SP StoryPoint)
- - **(SP 40)** Como um usuário eu desejo ver os ícones em destaque.
- - **(SP 13)** Como um usuário eu desejo filtrar o tipo de ícone por categoria.
- - **(SP 20)** Como um usuário eu desejo ver detalhes do produto.
- - **(SP 02)** Como um usuário eu desejo entrar em contato com a empresa.
- - **(SP 03)** Como um usuário eu desejo conhecer mais sobre a empresa.
+ - **(SP 40)** I - Como um usuário eu desejo ver a vitrine com os ícones em destaque.
+ - **(SP 13)** II - Como um usuário eu desejo filtrar o tipo de ícone por categoria.
+ - **(SP 20)** III - Como um usuário eu desejo ver detalhes do produto.
+ - **(SP 02)** IV - Como um usuário eu desejo entrar em contato com a empresa.
+ - **(SP 03)** V - Como um usuário eu desejo conhecer mais sobre a empresa.
 ---
-## #SPRINT 01
+## #SPRINT 01 
+### Objetivo: Estória I e III
 ### #Sprint Backlog:
-- 
+- Estrutura HTML vitrine [ 45 minutos ]
+- Estrutura HTML detalhes do produto [ 45 minutos ]
+- Implementar CSS + Bootstrap página vitrine [ 1 hora ]
+- Implementar CSS + Bootstrap página detalhes do produto [ 1 hora ]
+- Testes/Ajustes [ 30 minutos ]
+ ##### (DIA 19 das 18:30 as 22:30)
+---
+## #SPRINT 02
+### Objetivo: Estória II, IV E V
+### #Sprint Backlog:
+- Implementar filtro por categoria [ 1 hora ]
+- Implementar CSS + Bootstrap botões/menu filtro por categoria [ 45 minutos ]
+- Estrutura HTML página Sobre a empresa [ 1 hora ]
+- Implementar CSS + Bootstrap página Sobre a empresa [ 1 hora e 15 minutos ]
+ ##### (DIA 20 das 13:30 as 17:30)
+---
