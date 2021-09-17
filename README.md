@@ -1,2 +1,2 @@
-# #GamaAcademy#StackHacker - DESAFIO INDIVIDUAL 1
+# #GamaAcademy[Hacker] - DESAFIO INDIVIDUAL 1
 
