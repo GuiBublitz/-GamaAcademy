@@ -27,7 +27,7 @@
 - Implementar CSS + Bootstrap página vitrine [ 1 hora ]
 - Implementar CSS + Bootstrap página detalhes do produto [ 1 hora ]
 - Testes/Ajustes [ 30 minutos ]
- ##### (DIA 19 e 20 das 18:30 as 20:30)
+ ##### (DIA 19 e 20 das 18:30 as 22:30)
 ---
 ## #SPRINT 02
 ### Objetivo: Estória II, IV E V
@@ -36,7 +36,7 @@
 - Implementar CSS + Bootstrap botões/menu filtro por categoria [ 45 minutos ]
 - Estrutura HTML página Sobre a empresa [ 1 hora ]
 - Implementar CSS + Bootstrap página Sobre a empresa [ 1 hora e 15 minutos ]
- ##### (DIA 21 e 22 das 15:30 as 17:30)
+ ##### (DIA 21 e 22 das 13:30 as 17:30)
 ---
 ## #SPRINT 03
 ### Objetivo: Estória VI + Extras
