@@ -88,20 +88,102 @@
 
             <ul class="pagination">
 
-                <li style=" font-size: 18px;" class="page-item ml-auto "><a style="color: black;" class="page-link p-3"
-                        href="#">Exclusivos</a></li>
-                <li style=" font-size: 18px;" class="page-item"><a style="color: black;" class="page-link p-3"
-                        href="#">Mais vendidos</a></li>
-                <li style=" font-size: 18px;" class="page-item mr-auto "><a style="color:black" class="page-link p-3"
-                        href="#">Simples</a></li>
+                <li id="exclusivos" style=" font-size: 18px;" class="page-item ml-auto "><a style="color: black;" class="page-link p-3"
+                        >Exclusivos</a></li>
+                <li id="maisvendidos" style=" font-size: 18px;" class="page-item"><a style="color: black;" class="page-link p-3"
+                        >Mais vendidos</a></li>
+                <li id="simples" style=" font-size: 18px;" class="page-item mr-auto "><a style="color:black" class="page-link p-3"
+                        >Simples</a></li>
 
             </ul>
 
         </nav>
+        <!--funcinamento dos botões-->
+        <script>
+            var exclusivos = document.getElementById("exclusivos");
+            var maisvendidos = document.getElementById("maisvendidos");
+            var simples = document.getElementById("simples");
+
+
+
+            document.getElementById("exclusivos").addEventListener("click", e => {
+                document.getElementById("tier1").style.display = "block";
+                document.getElementById("tier1.1").style.display = "block";
+                document.getElementById("tier1.2").style.display = "block";
+                document.getElementById("tier1.3").style.display = "block";
+
+                document.getElementById("tier3").style.display ="none";
+                document.getElementById("tier3.1").style.display ="none";
+                document.getElementById("tier3.2").style.display ="none";
+                document.getElementById("tier3.3").style.display ="none";
+                document.getElementById("tier3.4").style.display ="none";
+                document.getElementById("tier3.5").style.display ="none";
+                document.getElementById("tier3.6").style.display ="none";
+                document.getElementById("tier3.7").style.display ="none";
+
+                document.getElementById("tier2").style.display ="none";
+                document.getElementById("tier2.1").style.display ="none";
+                document.getElementById("tier2.2").style.display ="none";
+                document.getElementById("tier2.3").style.display ="none";
+               
+
+              
+               
+            })
+            
+            
+            document.getElementById("simples").addEventListener("click", e => {
+                document.getElementById("tier3").style.display = "block";
+                document.getElementById("tier3.1").style.display = "block";
+                document.getElementById("tier3.2").style.display = "block";
+                document.getElementById("tier3.3").style.display = "block";
+                document.getElementById("tier3.4").style.display = "block";
+                document.getElementById("tier3.5").style.display = "block";
+                document.getElementById("tier3.6").style.display = "block";
+                document.getElementById("tier3.7").style.display = "block";
+
+                document.getElementById("tier2").style.display ="none";
+                document.getElementById("tier2.1").style.display ="none";
+                document.getElementById("tier2.2").style.display ="none";
+                document.getElementById("tier2.3").style.display ="none";
+
+                document.getElementById("tier1").style.display ="none";
+                document.getElementById("tier1.1").style.display ="none";
+                document.getElementById("tier1.2").style.display ="none";
+                document.getElementById("tier1.3").style.display ="none";
+            })
+            document.getElementById("maisvendidos").addEventListener("click", e => {
+                document.getElementById("tier2").style.display = "block";
+                document.getElementById("tier2.1").style.display = "block";
+                document.getElementById("tier2.2").style.display = "block";
+                document.getElementById("tier2.3").style.display = "block";
+
+                document.getElementById("tier3").style.display ="none";
+                document.getElementById("tier3.1").style.display ="none";
+                document.getElementById("tier3.2").style.display ="none";
+                document.getElementById("tier3.3").style.display ="none";
+                document.getElementById("tier3.4").style.display ="none";
+                document.getElementById("tier3.5").style.display ="none";
+                document.getElementById("tier3.6").style.display ="none";
+                document.getElementById("tier3.7").style.display ="none";
+
+                document.getElementById("tier1").style.display ="none";
+                document.getElementById("tier1.1").style.display ="none";
+                document.getElementById("tier1.2").style.display ="none";
+                document.getElementById("tier1.3").style.display ="none";
+               
+            })
+            
+
+           
+
+        </script>
+        <!--fim funcionamento dos botões-->
+
         <!--fim paginação-->
         <!--vitrine-->
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div  id="tier1" class="tier1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/icon-insta.png"
                         alt="Card image cap">
@@ -113,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier1.1" class="tier1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/facebook.png"
                         alt="Card image cap">
@@ -125,7 +207,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier1.2" class="tier1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/discordia.png"
                         alt="Card image cap">
@@ -137,7 +219,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier1.3" class="tier1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/steam-logo.png"
                         alt="Card image cap">
@@ -149,7 +231,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/gostar.png"
                         alt="Card image cap">
@@ -161,7 +243,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.1" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto"
                         src="images/nao-gosto-de-simbolo.png" alt="Card image cap">
@@ -173,7 +255,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.2" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto"
                         src="images/pendure-a-mao-solta.png" alt="Card image cap">
@@ -185,7 +267,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.3" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/v-ao-vivo.png"
                         alt="Card image cap">
@@ -197,7 +279,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.4" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/solidarity.png"
                         alt="Card image cap">
@@ -209,7 +291,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.5" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/select.png"
                         alt="Card image cap">
@@ -221,7 +303,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.6" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/heart.png"
                         alt="Card image cap">
@@ -233,7 +315,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier3.7" class="tier3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/handshake.png"
                         alt="Card image cap">
@@ -245,7 +327,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier2" class="tier2 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/party.png"
                         alt="Card image cap">
@@ -257,7 +339,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier2.1" class="tier2 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/smile.png"
                         alt="Card image cap">
@@ -269,7 +351,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier2.2" class="tier2 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/emoji.png"
                         alt="Card image cap">
@@ -281,7 +363,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div id="tier2.3" class="tier2 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card text-center pt-5">
                     <img style="width: 80px;height: 80px;" class="card-img-top m-auto" src="images/in-love.png"
                         alt="Card image cap">
