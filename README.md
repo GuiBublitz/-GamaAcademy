@@ -1,5 +1,5 @@
 # #GamaAcademy[Hacker] - DESAFIO INDIVIDUAL 1
-
+# Link: <a href="https://guibublitz.github.io/GamaAcademyDesafio/">Clique aqui para abir o projeto no seu navegador</a>.
 ### Contexto: Somos parte de uma equipe de desenvolvimento de websites e fomos contratados para a criação de um site de catálogo de produtos. Precisamos desenvolver um site responsivo para nosso cliente contemplando as seguintes características:
 - Uma vitrine virtual de produtos
 - Uma página com detalhes de um determinado produto
