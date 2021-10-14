@@ -1,3 +1,21 @@
+<p align="center">
+  <img src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy.png" width="50%">
+</p>
+
+<p align="center">
+  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#-bootstrap">Bootstrap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-vitrine">Vitrine</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  <img alt="Grama XP 39" src="https://img.shields.io/static/v1?label=xp&message=39&color=success&labelColor=grey">
+  
+  <img alt="Stack Hacker" src="https://img.shields.io/static/v1?label=stack&message=hacker&color=success&labelColor=grey">
+  
+</p>
+
 # #GamaAcademy[Hacker] - DESAFIO INDIVIDUAL 1
 # Link: <a href="https://guibublitz.github.io/GamaAcademyDesafio/">Clique aqui para abir o projeto no seu navegador</a>.
 ### Contexto: Somos parte de uma equipe de desenvolvimento de websites e fomos contratados para a criação de um site de catálogo de produtos. Precisamos desenvolver um site responsivo para nosso cliente contemplando as seguintes características:
